@@ -1,0 +1,3 @@
+Jim: Salesman
+Oscar: Accounting
+Dwight: Assistant Manager
