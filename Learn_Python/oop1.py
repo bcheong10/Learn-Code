@@ -1,7 +1,6 @@
 # Class
 class SoftwareEngineer:
     
-
     # Class Attributes
     alias = "Keyboard Magician"
     access_level = 5
