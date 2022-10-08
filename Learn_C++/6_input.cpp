@@ -8,7 +8,7 @@ int main()
     int age;
     cout << "Enter your age: ";
 
-    cin >> age; // "cin" takes input from user and stores into variable
+    cin >> age; // "cin" takes input from user and stores into variable 'age'
     cout << "You are " << age << " years old" << endl;
 
     // Inputting a string
