@@ -17,6 +17,7 @@ capture = cv.VideoCapture('Videos/dog.mp4')
 
 while True:
     isTrue, frame = capture.read()
+    cv.waitKey(100) # Reduces FPS
     cv.imshow('Video', frame)
 
     # Stops the video from playing indefinitely
