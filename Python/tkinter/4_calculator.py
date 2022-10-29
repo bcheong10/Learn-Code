@@ -60,7 +60,7 @@ def button_equals():
     if math == "multiplication":
         e.insert(0, f_num * s_num)
     if math == "division":
-        e.insert(0)
+        e.insert(0, f_num / s_num)
 
 
 button1 = Button(root, text="1", padx=40, pady=20, command=lambda: button_click(1))
@@ -75,9 +75,9 @@ button9 = Button(root, text="9", padx=40, pady=20, command=lambda: button_click(
 button0 = Button(root, text="0", padx=40, pady=20, command=lambda: button_click(0))
 
 button_add = Button(root, text="+", padx=39, pady=20, command=button_add)
-button_subtract = Button(root, text="-", padx=41, pady=20, command=button_add)
-button_multiply = Button(root, text="*", padx=41, pady=20, command=button_add)
-button_divide = Button(root, text="/", padx=41, pady=20, command=button_add)
+button_subtract = Button(root, text="-", padx=41, pady=20, command=button_subtract)
+button_multiply = Button(root, text="*", padx=41, pady=20, command=button_multiply)
+button_divide = Button(root, text="/", padx=41, pady=20, command=button_divide)
 
 button_clear = Button(root, text="Clear", padx=29.5, pady=20, command=button_clear)
 button_equals = Button(root, text="=", padx=140, pady=20, command=button_equals)
