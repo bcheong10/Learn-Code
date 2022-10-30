@@ -51,5 +51,4 @@ for index in range(len(food)):
 
     radiobutton.grid(row=index, column=0)
 
-print("Hello")
 root.mainloop()
