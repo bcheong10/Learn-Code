@@ -36,8 +36,8 @@ def order():
 x = IntVar()
 
 for index in range(len(food)):
-    radiobutton = Radiobutton(root, 
-                              text = food[index], 
+    radiobutton = Radiobutton(root,
+                              text = food[index],
                               variable = x, # Groups the radiobuttons together if they share the same variable
                               value=index, # Assigns each button a different value
                               padx = 25,
@@ -48,8 +48,8 @@ for index in range(len(food)):
                               width = 200,
                               command = order
                               )
-    
+
     radiobutton.grid(row=index, column=0)
 
-
+print("Hello")
 root.mainloop()
