@@ -5,7 +5,7 @@ root = Tk()
 root.title('Learn to Code')
 root.iconbitmap(r"resources\icon.ico")
 
-my_img = ImageTk.PhotoImage(Image.open(r"resources\photo.jpg"))
+my_img = ImageTk.PhotoImage(Image.open(r"resources\photo5.jpg"))
 myLabel = Label(image=my_img)
 myLabel.pack()
 
