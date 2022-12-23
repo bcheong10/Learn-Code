@@ -7,6 +7,7 @@ class oop {
         // User() is known as a constructor
         User user_1 = new User("Ben", "Gold");
         User user_2 = new User();
+        Student student_1 = new Student();
 
         // Creating a list of objects
         ArrayList<User> users = new ArrayList<User>();
@@ -24,10 +25,12 @@ class oop {
         // Using method getters & setters 
         user_2.set_name("Sally");
         user_2.set_membership(User.Membership.Bronze);
+
+        student_1.set_name("Perry");
         
         System.out.printf("Name: %s, Membership: %s\n", user_1.get_name(), user_1.get_membership());
         System.out.printf("Name: %s, Membership: %s\n", user_2.get_name(), user_2.get_membership());
-        System.out.println(user_1);
+        System.out.println(student_1);
 
         // Print all users in arraylist
         for (User user: users) {

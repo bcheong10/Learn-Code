@@ -1,5 +1,3 @@
-import java.text.Format;
-
 public class User {
 
     // Set attributes as private
